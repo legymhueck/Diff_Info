@@ -23,13 +23,13 @@ def programmstarter():
 
     auswahl = auswahlmenue()  # Wir merken uns, welchen String die Methode auswahlmenue() zurückgegeben hat.
     if auswahl == "1":  # Da die Methode auswahlmenue() einen String zurückgibt, prüft man auf einen String.
-        print("\n\t" + programme[0] + starttext)
+        print("\n\t" + programme[0] + starttext)  # Hier könnte auch eine Funktion aufgerufen werden.
     elif auswahl == "2":
-        print("\n\t" + programme[1] + starttext)
+        print("\n\t" + programme[1] + starttext)  # Hier könnte auch eine Funktion aufgerufen werden.
     elif auswahl == "3":
-        print("\n\t" + programme[2] + starttext)
+        print("\n\t" + programme[2] + starttext)  # Hier könnte auch eine Funktion aufgerufen werden.
     elif auswahl == "4":
-        print("\n\t" + programme[3] + starttext)
+        print("\n\t" + programme[3] + starttext)  # Hier könnte auch eine Funktion aufgerufen werden.
     else:
         print("\n\t Programm-Fehler! Hier darf man gar nicht hinkommen!")
 
